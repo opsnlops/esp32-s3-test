@@ -6,13 +6,14 @@
       "core": "esp32",
       "f_cpu": "240000000L",
       "f_flash": "80000000L",
-      "flash_mode": "dio",
+      "flash_mode": "qio",
       "mcu": "esp32s3",
       "target": "esp32s3",
       "variant": "um_pros3",
-      "flash_size": "4MB",
+      "flash_size": "16MB",
       "flash_freq": "80m",
-      "board": "PROS3"
+      "board": "PROS3",
+      "defines": "-DBOARD_HAS_PSRAM"
     },
     "connectivity": [
       "wifi"
