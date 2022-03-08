@@ -32,7 +32,7 @@ void setup()
     l.init();
     l.info("Hello! I am up and running on a %s", ARDUINO_VARIANT);
 
-    pinMode(LED_BUILTIN, OUTPUT);
+    //pinMode(LED_BUILTIN, OUTPUT);
 
     NetworkConnection network = NetworkConnection();
     l.info("Hello! I am up and running on a %s", ARDUINO_VARIANT);
